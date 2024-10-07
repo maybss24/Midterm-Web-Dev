@@ -1,0 +1,356 @@
+/*------ Carousel Home------*/
+
+
+.navbar {
+   
+    width: 100%;
+    z-index: 1030;
+    color: aliceblue;
+}
+
+.navbar-toggler {
+    border: none;
+    padding-right: 43px;
+}
+.navbar-toggler-icon {
+    background-image: none;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+.custom-toggler {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+}
+.custom-toggler span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+    margin: 2px 0;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 5px; 
+    left: 10px; 
+    text-align: left;
+
+}
+
+.carousel-caption h3 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem; 
+    font-weight: bold;
+    color: #fff; 
+}
+
+.carousel-caption p {
+    font-family: 'Arial', sans-serif; 
+    font-size: 1.2rem; 
+    color: #0e0c0c;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, #728abd, #754966);
+    padding: 10px 32px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+    }
+
+.carousel-caption h3{
+    padding-top: 100px;
+    font-size: 52px;
+    color: #5d3899; 
+}
+        
+.carousel-caption p {
+    padding: 75px 0 100px;
+    font-size: 25px;
+    color: #070707;
+ } 
+
+ .card {
+    max-width: 200px; 
+    margin: auto; 
+ }
+
+ 
+.custom-img{
+    width: 80%;
+    max-width: 80px;
+    height:auto;
+}
+
+
+/*------ Book ------*/
+.book-header {
+    height: 30vh;
+    width: 100%;
+    background: rgb(89, 80, 80);
+    text-align: center;
+    }
+.book-header h1 {
+    margin-top: 5px;
+    font-size: 40px;
+    }
+.book {
+    width: 80;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+ }
+ h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+ }
+.arow {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+ .book-col {
+    flex-basis: 31%;
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px 2px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 10px;
+}
+.book-col img {
+    width: 45%;
+    border-radius: 10px;
+}
+ h5 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.book-col:hover {
+    box-shadow: 20px 20px 20px 20px rgb(205, 191, 191);
+}
+
+
+/*------ Book1 ------*/
+.abook-col {
+    flex-basis: 31%;
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-bottom: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px 2px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 10px;
+    }
+    .abook-col img {
+    width: 30%;
+    border-radius: 5px;
+    }
+    .abook-col:hover {
+    box-shadow: 20px 20px 20px 20px rgb(0, 0, 0);
+    }
+/*------ Book2   ------*/
+
+.bbook-col {
+    flex-basis: 31%;
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-bottom: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px 2px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 10px;
+    }
+    .bbook-col img {
+    width: 30%;
+    border-radius: 5px;
+    }
+    .bbook-col:hover {
+    box-shadow: 20px 20px 20px 20px rgb(68, 119, 134);
+    }
+
+/*------ Book3  ------*/
+.cbook-col {
+    flex-basis: 31%;
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-bottom: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px 2px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 10px;
+    }
+    .cbook-col img {
+    width: 30%;
+    border-radius: 5px;
+    }
+    .cbook-col:hover {
+    box-shadow: 20px 20px 20px 20px rgb(0, 0, 0);
+    }
+
+/*------ Book4 ------*/
+.dbook-col {
+     flex-basis: 31%;
+     background: #d8d8d8;
+     border-radius: 10px;
+     margin-bottom: 50%;
+     margin-left: 1%;
+     margin-right: 1%;
+     padding: 10px 2px;
+     box-sizing: border-box;
+     transition: 0.5s;
+     margin: 10px;
+     }
+    .dbook-col img {
+     width: 30%;
+     border-radius: 5px;
+     }
+    .dbook-col:hover {
+    box-shadow: 20px 20px 20px 20px rgb(68, 119, 134);
+    }
+ /*------ Book5 ------*/   
+.ebook-col {
+    flex-basis: 31%;
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-bottom: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px 2px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 10px;
+    }
+
+    .ebook-col img {
+    width: 30%;
+    border-radius: 5px;
+    }
+    .ebook-col:hover {
+    box-shadow: 20px 20px 20px 20px rgb(0, 0, 0);
+    }
+
+/*------ Book6------*/
+.fbook-col {
+    flex-basis: 31%;
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-bottom: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px 2px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 10px;
+    }
+    .fbook-col img {
+     width: 30%;
+    border-radius: 5px;
+    }
+    .fbook-col:hover {
+    box-shadow: 20px 20px 20px 20px rgb(68, 119, 134);
+    }
+
+/*------ Book7 ------*/
+.gbook-col {
+    flex-basis: 31%;
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-bottom: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px 2px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 10px;
+    }
+    .gbook-col img {
+    width: 30%;
+    border-radius: 5px;
+    }
+    .gbook-col:hover {
+    box-shadow: 20px 20px 20px 20px rgb(0, 0, 0);
+    }
+
+/*------ Book8 ------*/
+.hbook-col {
+    flex-basis: 31%;
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-bottom: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px 2px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 10px;
+    }
+    .hbook-col img {
+    width: 30%;
+    border-radius: 5px;
+    }
+    .hbook-col:hover {
+    box-shadow: 20px 20px 20px 20px rgb(68, 119, 134);
+    }
+
+
+/*------Featured ------*/
+
+.card {
+    border: none; 
+    max-width: 200px; 
+    margin: auto; 
+        
+ }
+.card-img-top {
+    height: 300px; 
+    object-fit: cover; 
+}
+
+ /*------ Contact ------*/  
+   
+.container {
+     padding: 20px;
+ }
+    
+ h1, h3 {
+    font-weight: bold;
+}
+    
+ .bg-dark {
+    background-color: #333 !important; 
+}
+    
+.form-control {
+    margin-bottom: 10px;
+}
+    
+a {
+    text-decoration: none;
+}
+    
+ a:hover {
+    text-decoration: underline;
+}
+
+
